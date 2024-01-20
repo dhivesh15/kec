@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+        .contact {
+            margin-top: 20px;
+        }
+        .education, .experience {
+            margin-bottom: 30px;
+        }
+        .conatiner{
+        display:flex;
+         justify-content:space-between;
+         background-color: aqua;
+        align-items:center;
+        flex-wrap:wrap;
+        flex-direction:row;
+    }
+    .conatiner{
+        display:grid;
+        grid-template-columns:repeat(2,1fr) ;
+        gap: 10px;
+        background-color: azure;
+    }
+    .items{
+        border:5px solid black;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+        margin:5px;
+        background-color: rgba(0, 153, 255, 0.559);
+    }
+    @media( max-width:425px){
+        .conatiner{
+            background-color: #333;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>DHIVESH</h1>
+        <p>Web Developer</p>
+        <a href="C:\Users\dhive\Downloads\22BCR006.jpg">photo</a>
+    </div>
+    <div class="conatiner">
+<div class="item"><img src=22BCR006.JPG width="150" height="150"></div>
+<div class="item">DHIVESH</div>
+<div class="items">web developer</div>
+<div class="items"><a href="file:///C:/Users/dhive/OneDrive/Desktop/fullstack/resume2.html">link</a></div>
+    
+    </div>
+    <div class="contact">
+        <h2>Contact Information</h2>
+        <p>Email: dhivesh@gmail.com</p>
+        <p>Phone: 7397149192</p>
+        <input type="text">
+    </div>
+    <div class="education">
+        <h2>Education</h2>
+        <h3>kongu Engineering College,perundurai</h3>
+        <p>i have completed bsc-computer techonology</p>
+    </div>
+    <div class="experience">
+        <h2>Work Experience</h2>
+        <h3>nil</h3>
+        <p> role in the Company.</p>
+    </div>
+    <div class="personal deatils">
+        <h2>Personal deatils</h2>
+        <p>Name:DHIVESH U</p>
+        <p>Age:20</p>
+    </div>
+</body>
+</html>
